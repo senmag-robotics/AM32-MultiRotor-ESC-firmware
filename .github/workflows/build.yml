@@ -1,4 +1,4 @@
-name: Build AM32 F051 Firmware
+name: Build AM32 F031 Firmware
 
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
@@ -42,7 +42,7 @@ jobs:
           echo "ARTIFACT_NAME=${ARTIFACT_NAME}" >> $GITHUB_ENV
 
       - name: Build All Targets
-        run: make all
+        run: make f031
 
       - name: Upload Bin Files
         uses: actions/upload-artifact@v2
