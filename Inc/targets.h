@@ -482,13 +482,14 @@
 
 #ifdef BBB_AM32
 #define FILE_NAME				"BBB_AM32"
-#define FIRMWARE_NAME           "BBB_AM32"
-#define DEAD_TIME               60
+#define FIRMWARE_NAME           		"BBB_AM32"
+#define DEAD_TIME               		60
 //#define HARDWARE_GROUP_F031_A
-#define    TARGET_STALL_PROTECTION_INTERVAL 8000
-#define    MILLIVOLT_PER_AMP           60
+#define TARGET_STALL_PROTECTION_INTERVAL 	8000
+#define MILLIVOLT_PER_AMP           		60
 #define USE_SERIAL_TELEMETRY
-#define VOLTAGE_BASED_RAMP     
+//#define VOLTAGE_BASED_RAMP     
+#define TARGET_VOLTAGE_DIVIDER  		210
 
 
 #define    EXTI_TYPE_BAC
