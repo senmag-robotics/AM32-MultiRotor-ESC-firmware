@@ -506,17 +506,17 @@
 #define    DMA_HANDLE_TYPE_DEF     hdma_tim2_ch3
 #define    IC_DMA_IRQ_NAME         DMA1_Channel1_IRQn
 
-#define    PHASE_A_EXTI_PORT          GPIOA
+#define    PHASE_A_EXTI_PORT          GPIOF
 #define    PHASE_B_EXTI_PORT          GPIOF
-#define    PHASE_C_EXTI_PORT          GPIOF
+#define    PHASE_C_EXTI_PORT          GPIOA
 
-#define    PHASE_A_EXTI_PIN           LL_GPIO_PIN_6
+#define    PHASE_A_EXTI_PIN           LL_GPIO_PIN_1
 #define    PHASE_B_EXTI_PIN           LL_GPIO_PIN_0
-#define    PHASE_C_EXTI_PIN           LL_GPIO_PIN_1
+#define    PHASE_C_EXTI_PIN           LL_GPIO_PIN_6
 
-#define    PHASE_A_EXTI_LINE          6
-#define    PHASE_B_EXTI_LINE          1
-#define    PHASE_C_EXTI_LINE          0
+#define    PHASE_A_EXTI_LINE          1
+#define    PHASE_B_EXTI_LINE          0
+#define    PHASE_C_EXTI_LINE          6
 
 #define    SYSCFG_EXTI_PORTA         LL_SYSCFG_EXTI_PORTF
 #define    SYSCFG_EXTI_PORTB         LL_SYSCFG_EXTI_PORTF
